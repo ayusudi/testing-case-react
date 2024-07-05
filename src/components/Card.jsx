@@ -1,7 +1,7 @@
 export default function Component({ el }) {
   return (
     <div className="card w-25 m-4 d-flex flex-col gap-2" >
-      <img data-testid={`img-recipe-${el.id}`} test src={el.image} className="card-img-top" alt={el.name} />
+      <img data-testid={`img-recipe-${el.id}`} src={el.image} className="card-img-top" alt={el.name} />
       <h5 data-testid={`title-recipe-${el.id}`} className="px-3 card-title">{el.name}</h5>
       <div className='px-3 d-flex align-items-center gap-2'>
         <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
