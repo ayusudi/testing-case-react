@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <NavBar search={search} />
-      <img className='w-100 object-fit-cover' style={{ height: 400 }} src="https://www.instacart.com/company/wp-content/uploads/2022/11/cooking-statistics-hero.jpg" alt="banner" />
+      <img data-testid="image-banner" className='w-100 object-fit-cover' style={{ height: 400 }} src="https://www.instacart.com/company/wp-content/uploads/2022/11/cooking-statistics-hero.jpg" alt="banner" />
       <div className='d-flex flex-wrap justify-content-around py-5  gap-2'>
         {showRecipe.map((el) => <Card key={el.id} el={el} />)}
       </div>
