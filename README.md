@@ -8,7 +8,7 @@ Terdapat 4 file yang perlu kamu lakukan testing :
 
 Tidak perlu melakukan testing terhadap semua element dan attribute yang ada, kamu cukup lakukan testing terhadap element yang memiliki data-testid. Antara lain : 
 1. `image-banner`
-2. `img-recipe-n` (n merupakan value id)
+2. `img-recipe-n` (n merupakan value el.id dari props pada Card)
 3. `title-recipe-n`
 4. `rating-recipe-n`
 5. `link-recipe-n`
